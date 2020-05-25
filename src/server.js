@@ -30,6 +30,7 @@ app.get("*", (req, res) => {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="main.css" />
         ${helmet.title.toString()}
         ${helmet.meta.toString()}
         ${helmet.link.toString()}
