@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-ssr-boilerplate",
   "version": "1.0.0",
-  "description": "react-redux boilerplate with ssr",
+  "description": "React server side rendering boilerplate",
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all --parallel webpack:*",
@@ -9,8 +9,16 @@
     "webpack:server": "webpack --config webpack.server.js --mode development --watch",
     "webpack:client": "webpack --config webpack.client.js --mode development --watch"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "react-ssr",
+    "server-side-rendering"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganeshmunisifreddy/react-ssr-boilerplate.git"
+  },
+  "author": "Ganesh Munisifreddy",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -29,6 +37,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
+    "core-js": "^3.6.5",
     "express": "^4.17.1",
     "npm-run-all": "^4.1.5",
     "react": "^16.13.1",
